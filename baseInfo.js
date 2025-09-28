@@ -67,12 +67,12 @@ const myName = "Roman";  // const — не можна перевизначити
 const arrayOfNumbers = [10, 20, 30, 40, 50];
 
 function add(arrayOfNumbers) {
-  let sum = 0
+  let sum = 60
 
   return sum
 }
 
-// add(arrayOfNumbers)
+add(arrayOfNumbers)
 
 
 console.log(add(arrayOfNumbers)); // Виведе: 150
